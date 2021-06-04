@@ -71,6 +71,21 @@ const mapUsernames = Object.entries(usernames).map(value => {
 })
 console.log(mapUsernames);
 
+/*                   ES9 Features                  */
+//Object spread operator
+const animalsObj = {
+    tiger: 20,
+    lion: 5,
+    monkey: 30,
+    elephant: 7
+};
+function objectSpread(arg1,arg2,arg3){
+    console.log("Object Spread operator example:");
+    console.log("Arg1:",arg1,"Arg2:",arg2,"Arg3:",arg3);
+}
+const {tiger,lion,...restAnimals} = animalsObj;
+objectSpread(tiger,lion,restAnimals);
+
 /*                  ES10 features                   */
 //flat(levels) -> flatens array upto specified level number (default is 1)
 const accountEntries = ["Rohan","Shaily",["Rakesh","Rupa",["Rudra"]],[[["Hitesh","Akash"]]],,,"Kiran"];
