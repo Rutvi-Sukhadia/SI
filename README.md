@@ -21,6 +21,8 @@ arrays, foreach, map, filter and reduce functions
 pass by value vs pass by ref, deep and shallow cloning of objects, this keyword, instantiation
 #### script4.js:
 advance loops, ES7-ES10 new features
+#### script5.js:
+promise, async await, async functions with for await of loops
 
 
 
