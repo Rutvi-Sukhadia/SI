@@ -2,13 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'tachyons';
-import {robots} from './robots'
-import CardList from './CardList';  //by default considers card.js if type not sprcified
+import App from './App';  //by default considers app.js if type not sprcified
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CardList robots={robots} />
+   <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
