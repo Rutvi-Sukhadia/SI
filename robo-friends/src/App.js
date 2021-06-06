@@ -1,7 +1,9 @@
 import React,{Component} from 'react';
 import CardList from './CardList';
 import Searchbox from './SearchBox';
+import './App.css';
 import {robots} from './robots';
+
 
 //Props are just input or properties, we never modify them and use pure components/functions like cCard or CardList
 //State - object that describes app, and here state is robots and whatever is entered in the search box => its able to change
@@ -26,7 +28,7 @@ class App extends Component {
         })
         return (
             <div className="tc">
-                <h1>Robo-Friends</h1>
+                <h1 className="f1">Robo-Friends</h1>
                 <Searchbox searchChange={this.onSearchChange}/>
                 <CardList robots={filteredRobobts} />
             </div>
