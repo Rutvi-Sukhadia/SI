@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'tachyons';
-import App from './App';  //by default considers app.js if type not sprcified
+import App from './containers/App';  //by default considers app.js if type not sprcified
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
