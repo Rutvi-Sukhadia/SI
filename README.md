@@ -25,7 +25,7 @@ advance loops, ES7-ES10 new features
 promise, async await, async functions with for await of loops
 
 ### robo-friends-  https://rutvi-sukhadia.github.io/Summer-Internship/
-React app that contains list of cards having user details and search facility to search user by their name.
+React app that contains list of cards having robots details and provides search by name facility.
 
 
 
