@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
-import {createStore,applyMiddleware} from 'redux'; 
+import {createStore,applyMiddleware,combineReducers} from 'redux'; 
 import {createLogger} from 'redux-logger'; 
+import thunkMiddleware from 'redux-thunk';
 import './index.css';
 import 'tachyons';
 import App from './containers/App';  //by default considers app.js if type not sprcified
-import {searchRobots} from './reducers';
+import {searchRobots, requestRobots} from './reducers';
 import reportWebVitals from './reportWebVitals';
 
+const rootReducer = combineReducers({searchRobots, requestRobots});
 const logger = createLogger();
-const store = createStore(searchRobots,applyMiddleware(logger));  //store created that contains state of the app
+const store = createStore(rootReducer,applyMiddleware(thunkMiddleware,logger));  //store created that contains state of the app
 
 ReactDOM.render(
   //Provider component passes down the store to all the components down the component tree from the app
