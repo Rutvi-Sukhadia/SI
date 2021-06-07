@@ -1,14 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Provider} from 'react-redux';
+import {createStore} from 'redux';  
 import './index.css';
 import 'tachyons';
 import App from './containers/App';  //by default considers app.js if type not sprcified
+import {searchRobots} from './reducers';
 import reportWebVitals from './reportWebVitals';
 
+
+const store = createStore(searchRobots);  //store created that contains state of the app
+
 ReactDOM.render(
-  <React.StrictMode>
+  //Provider component passes down the store to all the components down the component tree from the app
+  <Provider store={store}>  
    <App/>
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
 
