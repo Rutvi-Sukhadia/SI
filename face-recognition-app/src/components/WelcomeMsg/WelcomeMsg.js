@@ -1,13 +1,13 @@
 import React from 'react';
 
-const WelcomeMsg = () => {
+const WelcomeMsg = ({name, entries}) => {
     return (
         <div style={{clear: 'left'}}>
             <div className="fa2 white b">
-                {'Welcome Rutvi, Your current rank based on the number of faces detected is '}
+                {`Welcome ${name}, your current entry count based on the number of faces detected is`}
             </div>
             <div className="fa1 white b">
-                <h2>{'#5'}</h2>
+                <h2>{entries}</h2>
             </div>
         </div>
     )
