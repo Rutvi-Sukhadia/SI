@@ -30,5 +30,21 @@ React app that contains list of cards having robots details and provides search 
 ### income-expense-tracker
 Personal Income - Expense Tracker built using TypeScript
 
+### weather-app (Task1)
+Created Weather App in React JS using Open weather API with dynamic background change based on the temperature
+
+### crud-restAPI
+Created RestAPIs with Post/Get/Put/Delete requests for customers model
+
+### db-practice
+Practice of mongoose concepts - created mail and user collections, and perfromed crud and other db operations on it
+
+### booklist-client & bookList-RestFulAPI 
+Book Management System's frontend and backend - Features: Add, Update, View, Delete a book, Show list of all books
+
+### face-recognition-app & face-recgnition-API
+Face Recognition app's frontend and backend parts - this app will detect faces from your pictures and returns a probability score based on the likelihood that the detected face is the face of a recognized celebrity.
+
+
 
 
