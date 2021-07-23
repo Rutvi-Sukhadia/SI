@@ -42,8 +42,8 @@ Practice of mongoose concepts - created mail and user collections, and perfromed
 ### booklist-client & bookList-RestFulAPI 
 Book Management System's frontend and backend - Features: Add, Update, View, Delete a book, Show list of all books
 
-### face-recognition-app & face-recgnition-API
-Face Recognition app's frontend and backend parts - this app will detect faces from your pictures and returns a probability score based on the likelihood that the detected face is the face of a recognized celebrity.
+### face-recognition-app & face-recgnition-API - https://face-recognition-app24.herokuapp.com/
+Face Recognition app's frontend and backend parts - this app will detect faces from your pictures and returns a probability score based on the likelihood that the detected face is the face of a recognized celebrity. It also keeps track of number of faces detected.
 
 
 
