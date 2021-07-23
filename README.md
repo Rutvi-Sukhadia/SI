@@ -30,7 +30,7 @@ React app that contains list of cards having robots details and provides search 
 ### income-expense-tracker
 Personal Income - Expense Tracker built using TypeScript
 
-### weather-app (Task1)
+### weather-app (Task1) - https://weather--app24.herokuapp.com/
 Created Weather App in React JS using Open weather API with dynamic background change based on the temperature
 
 ### crud-restAPI
